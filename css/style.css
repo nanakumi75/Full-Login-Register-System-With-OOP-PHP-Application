@@ -1,0 +1,58 @@
+#logo{
+    width:70px !important;
+    border-radius: 10px;
+}
+
+#nav-links li a{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav-links li a:hover{
+    background-color: beige !important;
+    color:black !important;
+    border-radius: 5px;
+    transform: scale(1.05) !important;
+    transition: .5s; 
+}
+
+#carousel-item p{
+    font-weight: bold !important;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+#schools{
+    overflow: hidden;
+    cursor:pointer;
+}
+
+#schools img:hover{
+ transform: scale(1.1);
+ transition: 2s;
+}
+
+#jobboard{
+    background-image: url('../images/shanghai.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#location img:hover{
+    cursor: pointer !important;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#icons:hover{
+    cursor: pointer !important;
+    color:white !important;
+    background-color:blueviolet !important;
+    transition: 1s;
+}
+
+#follow a{
+    text-decoration: none !important;
+}
+ 
